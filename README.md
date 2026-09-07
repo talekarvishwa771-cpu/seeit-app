@@ -5,23 +5,10 @@
 
 ### Hide any file inside a photo. No one will ever know it's there.
 
-
-
 ![Python](https://img.shields.io/badge/python-3.x-blue?logo=python&logoColor=white)
-
- 
-
 ![Platform](https://img.shields.io/badge/platform-Termux%20%7C%20Linux%20%7C%20macOS-informational)
-
- 
-
 ![License](https://img.shields.io/badge/build-protected-lightgrey)
-
- 
-
 ![Status](https://img.shields.io/badge/status-active-success)
-
-
 
 *A steganography CLI tool that hides any file inside a cover image — the photo still opens perfectly fine, everywhere.*
 
@@ -37,18 +24,7 @@
 
 Image viewers stop reading a JPG at its "end of image" marker. `seeit` hides your file *after* that marker — the photo opens completely normally in any gallery app, WhatsApp preview, or browser, while your real file rides along invisibly, waiting to be pulled back out.
 
----
-
-> ⚠️ **Note:** This repo ships a **protected build**. The `seeit.py` here is obfuscated — this is a distribution copy for everyday use, not the original source.
-
----
-
-## 📸 What is this?
-
-Image viewers stop reading a JPG at its "end of image" marker. `seeit` hides your file *after* that marker — the photo opens completely normally in any gallery app, WhatsApp preview, or browser, while your real file rides along invisibly, waiting to be pulled back out.
-
-```
-
+```text
   ____       ___  _   _
  / ___|  ___|_ _|| |_| |_
  \___ \ / _ \| | | __| __|
@@ -56,6 +32,7 @@ Image viewers stop reading a JPG at its "end of image" marker. `seeit` hides you
  |____/ \___|___| \__|\__|
 
      hide any file inside a photo
+
 ```
 
 ## ✨ Features
